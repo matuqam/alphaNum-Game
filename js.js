@@ -36,6 +36,7 @@ function numberOfLetters(){
 }
 
 function StartGame(inputId, systemOutId, buttonId){
+    document.getElementById(inputId).focus();
     displayMessageIn(systemOutId, 'New Game starting... <br><br><strong>'+numberOfLetters()+'</strong> questions will be asked.')
     var randomInt = randomLetterIndex();
     var randomLetter = alphabet[randomInt];
