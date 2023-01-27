@@ -28,6 +28,11 @@ m, comma, period
 space
 ```
 
+# Configuration of the game
+The .js file can be modified to determin the letter range that is asked from
+the player. This is done throught the `randomLetterIndex()` function by editing
+the `START_LETTER` and `END_LETTER` constants.
+
 # Future development
 Global variables are currently used to maintain the player score, the current
 letter asked, the number of questions asked and the score.
@@ -39,4 +44,3 @@ asked to provide the corresponding letter could also be added.
 # Known issues
 The start game button should allow to start a new game. This is currently not
 working and the work arround is to refresh the page.
-

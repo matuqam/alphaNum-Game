@@ -18,17 +18,17 @@ const lenAlpha = alphabet.length;
 var currentLetter = '';
 var score = 0;
 var questionNumber = 0;
-// console.log(alphabet);
 
 function randomLetterIndex(){
-    // return Math.floor(Math.random() * lenAlpha); // all letter
-    // return Math.floor(Math.random() * 5 + 5); // 5 to 10
-    return Math.floor(Math.random() * 10 + 0); // 10 first letters
+    const START_LETTER = 'a'; // change to configure game
+    const END_LETTER = 'j';   // change to configure game
+    var numberOfLetters = END_LETTER.charCodeAt(0) - START_LETTER.charCodeAt(0);
+    var start_position = START_LETTER.charCodeAt(0) - 'a'.charCodeAt(0);
+    return Math.floor(Math.random() * numberOfLetters + start_position);
 }
 
 function displayMessageIn(destinationId, message){
     document.getElementById(destinationId).innerHTML = message;
-    // console.log('running display message with destinationID: '+destinationId+' and message: '+message);
 }
 
 function numberOfLetters(){
