@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 16px auto;
+}
+
+input,
+button {
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 16px 32px;
+}
+
+button {
+    background-color: rgb(0, 0, 255);
+    color: white;
+    cursor:pointer;
+}
+
+button:active {
+    background-color: rgb(0, 0, 181);
+}
+
+.systemOut {
+    text-align: left;
+    background-color: lightyellow;
+    font-size: 24px;
+    border-radius: 20px;
+    border: solid 4px transparent;
+    padding: 16px 32px;
+    /* margin-left: 32px; */
+    /* margin-top: 32px; */
+    width: 55%;
+    height: 10rem;
+}
+
+.score {
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    color: black;
+}

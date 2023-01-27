@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<header>
+    <title>
+        AlphaNum Game
+    </title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="js.js"></script>
+</header>
+<body>
+    <h1>
+        AlphaNum Game
+    </h1>
+    <main>
+        <!-- <form action="javascript:void(0)"> -->
+        <form action="#">
+            <button id="button" type="button" onClick="StartGame('input', 'systemOut', 'button');">Start Game</button>
+            <input autocomplete="off" id="input" placeholder="user input here..." onkeypress="handle(event, 'input', 'systemOut', 'button', 'score');";>
+        </form>
+        <div id="systemOut" class="systemOut">Welcome to the game!</div>
+    </main>
+    <div id="score" class="score">score: _/_</div>
+</body>
