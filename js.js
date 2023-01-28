@@ -22,7 +22,7 @@ var questionNumber = 0;
 function randomLetterIndex(){
     const START_LETTER = 'a'; // change to configure game
     const END_LETTER = 'j';   // change to configure game
-    var numberOfLetters = END_LETTER.charCodeAt(0) - START_LETTER.charCodeAt(0);
+    var numberOfLetters = END_LETTER.charCodeAt(0) - START_LETTER.charCodeAt(0) + 1;
     var start_position = START_LETTER.charCodeAt(0) - 'a'.charCodeAt(0);
     return Math.floor(Math.random() * numberOfLetters + start_position);
 }
@@ -41,7 +41,7 @@ function StartGame(inputId, systemOutId, buttonId){
     var randomInt = randomLetterIndex();
     var randomLetter = alphabet[randomInt];
     currentLetter = randomLetter;
-    displayMessageIn(systemOutId, 'What number corresponds to:<br><br>The letter: <strong>'+randomLetter+'<strong>');
+    displayMessageIn(systemOutId, 'What number corresponds to:<br><br>The letter: <strong class="letter">'+randomLetter+'<strong>');
 }
 
 function validateAnswer(inputId, systemOutId, buttonId, scoreId){

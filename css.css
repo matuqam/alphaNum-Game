@@ -41,9 +41,9 @@ button:active {
 }
 
 .systemOut {
-    text-align: left;
     background-color: lightyellow;
     font-size: 24px;
+    text-align: left;
     border-radius: 20px;
     border: solid 4px transparent;
     padding: 16px 32px;
@@ -51,6 +51,10 @@ button:active {
     /* margin-top: 32px; */
     width: 55%;
     height: 10rem;
+}
+
+.letter {
+    font-family: Source Code Pro;
 }
 
 .score {
