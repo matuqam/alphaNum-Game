@@ -34,6 +34,8 @@ the player. This is done throught the `randomLetterIndex()` function by editing
 the `START_LETTER` and `END_LETTER` constants.
 
 # Future development
+Add configuration options on the web page.
+
 Global variables are currently used to maintain the player score, the current
 letter asked, the number of questions asked and the score.
 Usage of either html elements insted or cookies are possible improvements.
