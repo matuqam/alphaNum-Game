@@ -3,7 +3,12 @@
     outline: none;
 }
 
+h1 {
+    color: #232f2f;
+}
+
 body {
+    background-color: #fffdff;
     text-align: center;
     font-family: Roboto;
     font-size: 24px;
@@ -18,30 +23,31 @@ main {
     border-radius: 20px;
     width: 80%;
     margin: auto;
-    background-color: lightgreen;
+    background-color: #AAE3E2;
     padding: 20px;
     margin: 16px auto;
 }
 
 input,
 button {
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 20px;
-    padding: 16px 32px;
+    padding: 12px 24px;
 }
 
 button {
-    background-color: rgb(0, 0, 255);
-    color: white;
+    background-color: #D9ACF5;
+    color: #2d2234;
     cursor:pointer;
 }
 
 button:active {
-    background-color: rgb(0, 0, 181);
+    background-color: #ad60de;
+    color: #f0d9ff;
 }
 
 .systemOut {
-    background-color: lightyellow;
+    background-color: #ffd3d8;
     font-size: 24px;
     text-align: left;
     border-radius: 20px;
