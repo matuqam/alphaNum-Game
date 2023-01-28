@@ -18,7 +18,9 @@ such as:
 
 `1`
 
-Then press enter.
+Then press enter or `f`.
+
+## answer input
 The player input is possible with the numbers on the keyboard
 or with the simulated numberpad:
 ```
